@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20211105 19:59:00.183" rpa="false" schemaversion="2">
+<suite id="s1" name="Tags testcase level" source="C:\Users\deepaak\PycharmProjects\RobotFremwork\Tags\Tags_testcase_level.robot">
+<test id="s1-t1" name="Tc_001 Browser Start and Close">
+<kw name="Open Browser">
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+<msg timestamp="20211105 19:59:00.277" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20211105 19:59:00.277" endtime="20211105 19:59:00.277"/>
+</kw>
+<kw name="maximize browser window">
+<status status="NOT RUN" starttime="20211105 19:59:00.277" endtime="20211105 19:59:00.277"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_username</arg>
+<arg>Test</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.277" endtime="20211105 19:59:00.277"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_email</arg>
+<arg>test@gmail.com</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.293" endtime="20211105 19:59:00.293"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_password</arg>
+<arg>12345</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.293" endtime="20211105 19:59:00.293"/>
+</kw>
+<kw name="close browser">
+<status status="NOT RUN" starttime="20211105 19:59:00.293" endtime="20211105 19:59:00.293"/>
+</kw>
+<tag>Retest</tag>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20211105 19:59:00.277" endtime="20211105 19:59:00.293">No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-t2" name="Tc_002 Browser Start and Close">
+<kw name="Open Browser">
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+<msg timestamp="20211105 19:59:00.293" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20211105 19:59:00.293" endtime="20211105 19:59:00.293"/>
+</kw>
+<kw name="maximize browser window">
+<status status="NOT RUN" starttime="20211105 19:59:00.293" endtime="20211105 19:59:00.293"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_username</arg>
+<arg>Test</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.308" endtime="20211105 19:59:00.308"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_email</arg>
+<arg>test@gmail.com</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.308" endtime="20211105 19:59:00.308"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_password</arg>
+<arg>12345</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.308" endtime="20211105 19:59:00.308"/>
+</kw>
+<kw name="close browser">
+<status status="NOT RUN" starttime="20211105 19:59:00.308" endtime="20211105 19:59:00.308"/>
+</kw>
+<tag>Deepak</tag>
+<status status="FAIL" starttime="20211105 19:59:00.293" endtime="20211105 19:59:00.308">No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-t3" name="Tc_005 Start and Close">
+<kw name="Open Browser">
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+<msg timestamp="20211105 19:59:00.308" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20211105 19:59:00.308" endtime="20211105 19:59:00.308"/>
+</kw>
+<kw name="maximize browser window">
+<status status="NOT RUN" starttime="20211105 19:59:00.324" endtime="20211105 19:59:00.324"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_username</arg>
+<arg>Test</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.324" endtime="20211105 19:59:00.324"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_email</arg>
+<arg>test@gmail.com</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.324" endtime="20211105 19:59:00.324"/>
+</kw>
+<kw name="input text">
+<arg>name:fld_password</arg>
+<arg>12345</arg>
+<status status="NOT RUN" starttime="20211105 19:59:00.324" endtime="20211105 19:59:00.324"/>
+</kw>
+<kw name="close browser">
+<status status="NOT RUN" starttime="20211105 19:59:00.324" endtime="20211105 19:59:00.324"/>
+</kw>
+<status status="FAIL" starttime="20211105 19:59:00.308" endtime="20211105 19:59:00.324">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20211105 19:59:00.183" endtime="20211105 19:59:00.324"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Deepak</stat>
+<stat pass="0" fail="1" skip="0">Retest</stat>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Tags testcase level">Tags testcase level</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
